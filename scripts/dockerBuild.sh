@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Get Docker
+bash installdocker.sh
+
 # Import secrets as environment variables
 SCRIPT_DIR=$( dirname -- "$( readlink -f -- "$0"; )"; )
 . $SCRIPT_DIR/dockerSecrets.sh
