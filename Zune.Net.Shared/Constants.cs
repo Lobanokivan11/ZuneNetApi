@@ -7,6 +7,7 @@
         public const string USERAGENT_UIX = "UIX/2008";
         public const string FM_API_KEY = "f4bfc85382e2f939f7daea1b23d5702d";
         public const string FM_API_SECRET = "3b2dddc8647c9bc376667105255e774b";
-        public const string DC_API_KEY = "MrBvWvMyvBBepDosPTha"
+        public const string DC_API_KEY = "MrBvWvMyvBBepDosPTha";
+        public const string DC_API_SECRET = "ikwaXttDlkzFhSWBUAFLZgoYPsoFMRmq";
     }
 }
