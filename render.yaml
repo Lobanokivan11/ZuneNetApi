@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: runzune
-    runtime: python
-    plan: standard
-    startCommand: "bash scripts/dockerBuild.sh"
