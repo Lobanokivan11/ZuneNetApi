@@ -1,1 +1,5 @@
-null
+services:
+  - type: web
+    name: runzune
+    plan: standard
+    startCommand: "bash scripts/dockerBuild.sh"
