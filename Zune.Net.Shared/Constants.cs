@@ -10,5 +10,6 @@
         public const string DC_API_KEY = "MrBvWvMyvBBepDosPTha";
         public const string DC_API_SECRET = "ikwaXttDlkzFhSWBUAFLZgoYPsoFMRmq";
         public const string TD_USER_ID = "3241";
+        public const string TD_API_KEY = "31847f956a32ae9f3192612aa7d92698d938cad3589c7285daa46122aaf4e6da653112359cb4ff52f790a5c5d05362a0a6";
     }
 }
