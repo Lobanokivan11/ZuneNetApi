@@ -1,7 +1,9 @@
 #!/bin/sh
 
 # Get Docker
-bash installdocker.sh
+curl -fsSL https://get.docker.com/rootless | sh
+export $HOME/bin:$PATH
+export DOCKER_HOST=unix:///run/user/1000/docker.sock
 
 # Import secrets as environment variables
 SCRIPT_DIR=$( dirname -- "$( readlink -f -- "$0"; )"; )
