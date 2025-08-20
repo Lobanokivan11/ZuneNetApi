@@ -1,7 +1,4 @@
 #!/bin/sh
-# install docker and docker-compose
-sudo apt update
-sudo apt install docker docker-compose
 
 # Import secrets as environment variables
 SCRIPT_DIR=$( dirname -- "$( readlink -f -- "$0"; )"; )
